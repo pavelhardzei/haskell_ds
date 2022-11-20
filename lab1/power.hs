@@ -18,4 +18,5 @@ powerFuncTail :: (Integral a1, Num a2) => a2 -> a1 -> a2
 powerFuncTail x p = powerFuncHelper x p 1
 
 
+main :: IO ()
 main = print $ powerFuncTail 2 9
