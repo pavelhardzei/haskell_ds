@@ -12,6 +12,8 @@ delannoy:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/delannoy delannoy.hs
 polinom:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/polinom polinom.hs
+clone:
+	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/clone clone.hs
 sandbox:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/sandbox sandbox.hs
 .PHONY: gcd, power, sandbox
