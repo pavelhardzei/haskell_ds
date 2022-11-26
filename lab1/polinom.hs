@@ -6,4 +6,5 @@ evalPolinomial arr x =
         sum [a_i * (x ** fromIntegral p) | (a_i, p) <- zip arr [len - 1, len - 2..0]]
 
 
+main :: IO ()
 main = print $ evalPolinomial [2, 1, 5] 3

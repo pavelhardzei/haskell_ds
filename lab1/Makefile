@@ -18,6 +18,8 @@ zip:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/zip zip.hs
 fib_list:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/fib_list fib_list.hs
+system:
+	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/system system.hs
 sandbox:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/sandbox sandbox.hs
-.PHONY: gcd, power, sandbox, fib_matrix, perfect, collatz, delannoy, polinom, clone, zip, fib_list
+.PHONY: gcd, power, sandbox, fib_matrix, perfect, collatz, delannoy, polinom, clone, zip, fib_list, system
