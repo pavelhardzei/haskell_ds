@@ -8,6 +8,8 @@ perfect:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/perfect perfect.hs
 collatz:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/collatz collatz.hs
+delannoy:
+	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/delannoy delannoy.hs
 sandbox:
 	ghc -dynamic -no-keep-hi-files -no-keep-o-files -o ./bin/sandbox sandbox.hs
 .PHONY: gcd, power, sandbox
